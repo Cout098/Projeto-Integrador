@@ -35,9 +35,10 @@ int main(){
                     if(l==c){
                         printf("%d\t", matriz[l][c]);
                     }else{
-                        printf(".");
+                        printf(".\t");
                     }
                 }
+                printf("\n");
             }
         break;
         case 2:
